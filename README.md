@@ -6,20 +6,33 @@ This project updates user wallet ballance using prisma transaction.
 ## Installation
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ yarn run start
 
 # watch mode
-$ npm run start:dev
+$ yarn run start:dev
 
 # production mode
-$ npm run start:prod
+$ yarn run start:prod
+```
+
+## Run prisma migration
+
+```bash
+# development
+$ yarn migrate:dev
+
+# watch mode
+$ yarn start:dev
+
+# production mode
+$ yarn migrate:deploy
 ```
 
 ## Test
